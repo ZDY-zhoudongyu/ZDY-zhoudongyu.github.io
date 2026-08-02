@@ -8,50 +8,47 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "default"
 title                    : "Dongyu Zhou | Academic Homepage"
 title_separator          : "-"
 name                     : &name "Dongyu Zhou (周东宇)"
-description              : &description "Master student at Northeastern University, research on heart sound signal classification, lightweight temporal deep learning, embedded audio DSP, NPU heterogeneous inference deployment based on RK3588"
+description              : &description "Full-time Master student, School of Control Engineering, Northeastern University (China). Research focuses on one-dimensional temporal acoustic signal modeling, lightweight deep learning, embedded audio DSP and RK3588 NPU heterogeneous reasoning deployment."
 url                      : https://zdyshinidie.github.io
 baseurl                  : ""
 repository               : "zdyshinidie/zdyshinidie.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Site Author
 author:
-  # Biographic information
-  avatar           : "profile.png" # 需你上传证件照到images文件夹命名profile.png
+  avatar           : "profile.png"
   name             : "Dongyu Zhou (周东宇)"
   pronouns         : "he/him"
-  bio              : "Master student, School of Control Engineering, Northeastern University. Research interests: heart sound temporal signal classification, lightweight 1D-CNN, audio signal processing, embedded DSP, RK3588 NPU quantization & real-time inference, ARM NEON acceleration, Linux low-latency audio pipeline."
+  bio              : "Master student at School of Control Engineering, Northeastern University, China. Research directions: heart sound signal classification, lightweight 1D-CNN, time-series deep learning, embedded audio signal processing, RK3588 model quantization & low-latency real-time inference, ARM NEON acceleration, Linux ALSA audio pipeline optimization."
   location         : "China"
-  employer         : "Northeastern University, School of Control Engineering"
-  uri              : # 后续填个人网站链接，同上方url
+  employer         : "Northeastern University, School of Control Engineering, China"
+  uri              : 
   email            : "1026670093@qq.com" 
 
-  # Academic websites（以下全部等你注册账号后补充链接，当前空白）
+  # Academic platforms (fill links after registration)
   academia         :
   arxiv            :
-  googlescholar    : "" # 注册谷歌学术后粘贴主页链接
+  googlescholar    : ""
   inspire-hep      :
   impactstory      :
-  orcid            : "" # 可选，注册ORCID后填写
+  orcid            : ""
   semantic         :
   ssrn             :
   pubmed           :
-  researchgate     : "" # 注册ResearchGate后粘贴主页链接
+  researchgate     : ""
   scopus           :
   zotero           :
 
-  # Repositories and software development
+  # Code platform
   bitbucket        :
   codepen          :
   dribbble         :
   github           : "zdyshinidie"
 
-  # Social media（全部留空，需要哪个你自己补充账号）
+  # Social media (all blank, fill yourself if needed)
   artstation       :
   bluesky          :
   facebook         :
@@ -78,7 +75,7 @@ author:
   youtube          :
   zhihu            :
 
-# Publication Category - The following the list of publication categories and their headings
+# Publication Category
 publication_category:
   books:
     title: 'Books'
@@ -139,15 +136,13 @@ facebook:
   publisher              :
 og_image                 :
 og_description           :
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : Person
   name                   : Dongyu Zhou
   links:
     - https://zdyshinidie.github.io
-    - "" # 谷歌学术链接，后续补充
-    - "" # ResearchGate链接，后续补充
+    - ""
+    - ""
 
 # Analytics
 analytics:
@@ -211,7 +206,7 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# These settings control the types of collections used by the template
+# Collections config
 collections:
   teaching:
     output: true
@@ -226,9 +221,7 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# These settings control how pages and collections are included in the site
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -239,14 +232,12 @@ defaults:
       comments: true
       share: true
       related: true
-  # _pages
   - scope:
       path: ""
       type: pages
     values:
       layout: single
       author_profile: true
-  # _teaching
   - scope:
       path: ""
       type: teaching
@@ -255,7 +246,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _publications
   - scope:
       path: ""
       type: publications
@@ -264,7 +254,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
   - scope:
       path: ""
       type: portfolio
@@ -273,7 +262,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
   - scope:
       path: ""
       type: talks
@@ -300,7 +288,6 @@ plugins:
   - jekyll-redirect-from
   - jemoji
 
-# Mimic GitHub Pages with --safe
 whitelist:
   - jekyll-feed
   - jekyll-gist
