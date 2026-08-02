@@ -13,9 +13,9 @@ title                    : "Dongyu Zhou | Academic Homepage"
 title_separator          : "-"
 name                     : &name "Dongyu Zhou (周东宇)"
 description              : &description "Full-time Master student, School of Control Engineering, Northeastern University (China). Research focuses on one-dimensional temporal acoustic signal modeling, lightweight deep learning, embedded audio DSP and RK3588 NPU heterogeneous reasoning deployment."
-url                      : https://zdyshinidie.github.io
+url                      : https://ZDY-zhoudongyu.github.io
 baseurl                  : ""
-repository               : "zdyshinidie/zdyshinidie.github.io"
+repository               : "ZDY-zhoudongyu/ZDY-zhoudongyu.github.io"
 
 # Site Author
 author:
@@ -28,7 +28,7 @@ author:
   uri              : 
   email            : "1026670093@qq.com" 
 
-  # Academic platforms (fill links after registration)
+  # Academic platforms (Fill links after you register accounts)
   academia         :
   arxiv            :
   googlescholar    : ""
@@ -46,9 +46,9 @@ author:
   bitbucket        :
   codepen          :
   dribbble         :
-  github           : "zdyshinidie"
+  github           : "ZDY-zhoudongyu"
 
-  # Social media (all blank, fill yourself if needed)
+  # Social media (All blank, fill yourself if needed later)
   artstation       :
   bluesky          :
   facebook         :
@@ -102,7 +102,7 @@ comments:
     num_posts            :
     colorscheme          :
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
+  allowedFields          : ['name', 'email', 'message']
   branch                 : "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
@@ -140,7 +140,7 @@ social:
   type                   : Person
   name                   : Dongyu Zhou
   links:
-    - https://zdyshinidie.github.io
+    - https://ZDY-zhoudongyu.github.io
     - ""
     - ""
 
