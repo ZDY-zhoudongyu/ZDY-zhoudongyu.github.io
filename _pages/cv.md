@@ -1,64 +1,32 @@
----
-layout: archive
-title: "CV"
-permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
----
+# CV
 
-{% include base_path %}
+## Education
+- M.S. in Control Engineering, Northeastern University, Sep. 2021 – Jun. 2027 (Expected)
+- B.S. in Automation, Hebei University of Engineering, Sep. 2017 – Jun. 2021
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Work experience
+### Full-time Audio Algorithm Engineer | Audio DSP R&D Team
+Jul. 2020 – Present
+- Delivered 15 mass-production audio products for mainstream consumer audio clients including Anker Innovations and Edifier, covering spatial audio rendering, real-time noise suppression and acoustic echo cancellation (AEC).
+- Accelerated audio signal processing on RK3588 embedded platform: implemented parallel FIR filter calculation with ARM NEON intrinsic, adopted Q15/Q30 fixed-point saturated multiplication to eliminate overflow risk, cut audio pipeline latency by 32% and reduced CPU power consumption.
+- Completed end-to-end lightweight time-series deep learning model quantization on RK3588 NPU, optimized low-latency real-time inference for heart sound classification and epilepsy EEG detection tasks.
+- Tuned Linux ALSA audio subsystem to resolve playback underrun glitch, built optimized multi-channel I2S/TDM audio transmission framework for embedded wearable audio devices.
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+### Research Assistant, School of Control Engineering, Northeastern University
+Sep. 2021 – Jun. 2027
+- Proposed SMI-DSNet two-branch spatio-temporal imaging network for physiological time-series classification, published as the first author in IEEE Sensors Journal.
+- Designed MVFusion-TSC multi-view fusion model for long sequential signal recognition, accepted by Information Fusion.
+- Conducted research on lightweight 1D-CNN based motion recognition with flexible lower-limb sensors and medical EEG abnormal detection.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Skills
+### Audio & Signal Processing
+Spatial audio simulation, AEC echo cancellation, FIR/IIR filter design, real-time audio pipeline optimization, RIR room impulse response modeling
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+### Embedded DSP Acceleration
+ARM NEON intrinsics, Q15/Q30 fixed-point arithmetic, RK3588 NPU model quantization, Linux ALSA/I2S/TDM driver tuning, low-latency inference, static memory allocation optimization
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+### Time-Series Deep Learning
+Lightweight 1D-CNN, sequential Transformer, spatio-temporal matrix imaging, two-stream DSNet architecture, model pruning & post-training quantization
+
+### Programming & Tools
+C/C++, Python, MATLAB, Git, Jekyll academic site development, GitHub Pages deployment
