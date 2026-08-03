@@ -24,6 +24,14 @@ Sep. 2024 – Jun. 2027
 - Designed MVFusion-TSC multi-view fusion model for long sequential signal recognition, accepted by Information Fusion.
 - Conducted research on lightweight 1D-CNN based motion recognition with flexible lower-limb sensors and medical EEG abnormal detection.
 
+## Publications
+### Journal Papers
+1. **Dongyu Zhou**, SMI-DSNet: Spatio-Temporal Matrix Imaging Dual Stream Network for Heart Sound Classification, *IEEE Sensors Journal*, 2025.
+2. **Dongyu Zhou**, MVFusion-TSC Multi-View Fusion Model for Long Time-Series Recognition, *Information Fusion*, 2026.
+3. **Dongyu Zhou**, Lightweight 1D-CNN for Flexible Lower Limb Sensor Motion Recognition, 2026.
+4. **Dongyu Zhou**, TDI-TFFNet for Gymnastics Movement Recognition, 2025.
+5. **Dongyu Zhou**, Lightweight EEG Network for Epilepsy Automatic Detection, 2026.
+
 ## Skills
 ### Audio & Signal Processing
 Spatial audio simulation, AEC echo cancellation, FIR/IIR filter design, real-time audio pipeline optimization, RIR room impulse response modeling
